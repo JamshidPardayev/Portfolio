@@ -1,0 +1,96 @@
+"use client";
+import { Arbutus, Nerko_One } from "next/font/google";
+import Link from "next/link";
+import React, { useState } from "react";
+import { IoMdMenu, IoMdClose } from "react-icons/io";
+import { HiX } from "react-icons/hi";
+
+const arbutus = Arbutus({
+  subsets: ["latin"],
+  weight: "400",
+});
+
+const nerkoOne = Nerko_One({
+  subsets: ["latin"],
+  weight: "400",
+});
+
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  return (
+    <nav className="bg-gradient-to-r from-[#121212] to-[#060829] relative">
+      <div className="max-w-[1200px] mx-auto px-[15px] min-h-[100px] flex justify-between items-center text-white">
+        <div className={arbutus.className}>
+          <h1 className="text-[40px] text-[#f8d3c8] font-medium max-sm:text-[40px]">
+            Jamshid
+          </h1>
+        </div>
+
+        <div className={`${nerkoOne.className} max-md:hidden`}>
+          <ul className="flex gap-6 items-center text-[#f8d3c8] text-[20px]">
+            {["Home", "Service", "Projects", "About us"].map((item, i) => (
+              <li key={i} className="relative group">
+                <Link
+                  href={item === "About us" ? "#about" : "#header"}
+                  className="hover:text-[#7764e0] transition"
+                >
+                  {item}
+                </Link>
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#7764e0] transition-all duration-300 group-hover:w-full"></span>
+              </li>
+            ))}
+          </ul>
+          
+        </div>
+
+        <Link href={"/contact"}>
+          <button className="text-[20px] px-5 py-1 border bg-gradient-to-r from-[#19049e] via-[#152a7a] rounded-tr-[60px] rounded-bl-[60px] hover:text-[#84f1ff] duration-300 cursor-pointer max-md:hidden">
+            Contact Us
+          </button>
+        </Link>
+
+        {/* Hamburger Icon */}
+        <div className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
+          {menuOpen ? (
+            <IoMdClose className="text-[30px] cursor-pointer" />
+          ) : (
+            <IoMdMenu className="text-[30px] cursor-pointer hover:text-[#7764e0] duration-300" />
+          )}
+        </div>
+      </div>
+
+      {menuOpen && (
+        <div className="md:hidden absolute h-[100vh] top-0 left-0 w-full bg-[#121212] text-white z-50 transition-all duration-300">
+          <div
+            className="absolute top-5 right-5 cursor-pointer hover:rotate-90 transition-transform duration-300"
+            onClick={() => setMenuOpen(false)}
+          >
+            <HiX className="text-[32px] text-[#f8d3c8] hover:text-[#7764e0] duration-300" />
+          </div>
+
+          <ul
+            className={`flex flex-col items-center gap-6 py-20 ${nerkoOne.className} text-[22px]`}
+          >
+            {["Home", "Service", "Projects", "About us", "Contact Us"].map(
+              (item, i) => (
+                <li key={i} className="relative group">
+                  <Link
+                    href={item === "About us" ? "#about" : "#header"}
+                    onClick={() => setMenuOpen(false)}
+                    className="hover:text-[#7764e0] transition"
+                  >
+                    {item}
+                  </Link>
+                  <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#7764e0] transition-all duration-300 group-hover:w-full"></span>
+                </li>
+              )
+            )}
+          </ul>
+        </div>
+      )}
+    </nav>
+  );
+};
+
+export default Navbar;

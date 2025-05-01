@@ -50,7 +50,6 @@ const Navbar = () => {
           </button>
         </Link>
 
-        {/* Hamburger Icon */}
         <div className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? (
             <IoMdClose className="text-[30px] cursor-pointer" />

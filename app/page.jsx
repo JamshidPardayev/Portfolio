@@ -3,7 +3,7 @@ import Header from "./header/page";
 
 export default function Home() {
   return (
-    <div className="w-[100%] overflow-x-hidden">
+    <div className="w-full  overflow-x-hidden">
       <Header />
     </div>
   );

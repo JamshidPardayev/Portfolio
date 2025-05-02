@@ -4,6 +4,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import { HiX } from "react-icons/hi";
+import { SparklesText } from "@/components/magicui/sparkles-text";
+
 
 const arbutus = Arbutus({
   subsets: ["latin"],
@@ -22,9 +24,7 @@ const Navbar = () => {
     <nav className="bg-gradient-to-r from-[#121212] to-[#060829] relative">
       <div className="max-w-[1200px] mx-auto px-[15px] min-h-[100px] flex justify-between items-center text-white">
         <div className={arbutus.className}>
-          <h1 className="text-[40px] text-[#f8d3c8] font-medium max-sm:text-[40px]">
-            Jamshid
-          </h1>
+            <SparklesText className="text-[40px] text-[#f8d3c8] font-medium max-sm:text-[40px]">Jamshid</SparklesText>
         </div>
 
         <div className={`${nerkoOne.className} max-md:hidden`}>

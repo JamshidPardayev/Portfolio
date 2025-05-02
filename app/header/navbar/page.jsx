@@ -6,7 +6,6 @@ import { IoMdMenu, IoMdClose } from "react-icons/io";
 import { HiX } from "react-icons/hi";
 import { SparklesText } from "@/components/magicui/sparkles-text";
 
-
 const arbutus = Arbutus({
   subsets: ["latin"],
   weight: "400",
@@ -20,32 +19,42 @@ const nerkoOne = Nerko_One({
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const menuItems = [
+    { name: "Home", href: "#home" },
+    { name: "Services", href: "#service" },
+    { name: "Projects", href: "#project" },
+    { name: "About", href: "#about" },
+  ];
+
+  const mobileMenuItems = [
+    ...menuItems,
+    { name: "Contact Us", href: "#contact" },
+  ];
+
   return (
     <nav className="bg-gradient-to-r from-[#121212] to-[#060829] relative">
       <div className="max-w-[1200px] mx-auto px-[15px] min-h-[100px] flex justify-between items-center text-white">
         <div className={arbutus.className}>
-            <SparklesText className="text-[40px] text-[#f8d3c8] font-medium max-sm:text-[40px]">Jamshid</SparklesText>
+          <SparklesText className="text-[40px] text-[#f8d3c8] font-medium max-sm:text-[40px]">
+            Jamshid
+          </SparklesText>
         </div>
 
         <div className={`${nerkoOne.className} max-md:hidden`}>
           <ul className="flex gap-6 items-center text-[#f8d3c8] text-[20px]">
-            {["Home", "Service", "Projects", "About us"].map((item, i) => (
+            {menuItems.map((item, i) => (
               <li key={i} className="relative group">
-                <Link
-                  href={item === "About us" ? "#about" : "#header"}
-                  className="hover:text-[#7764e0] transition"
-                >
-                  {item}
+                <Link href={item.href} className="hover:text-[#7764e0] transition">
+                  {item.name}
                 </Link>
                 <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#7764e0] transition-all duration-300 group-hover:w-full"></span>
               </li>
             ))}
           </ul>
-          
         </div>
 
-        <Link href={"/contact"}>
-          <button className="text-[20px] px-5 py-1 border bg-gradient-to-r from-[#19049e] via-[#152a7a] rounded-tr-[60px] rounded-bl-[60px] hover:text-[#84f1ff] duration-300 cursor-pointer max-md:hidden">
+        <Link href="#contact" scroll={false}>
+          <button className="text-[20px] px-5 py-1 border bg-gradient-to-r from-[#19049e] via-[#152a7a] rounded-tr-[60px] rounded-bl-[60px] hover:text-[#84f1ff] hover:border-[#84f1ff] duration-300 cursor-pointer max-md:hidden">
             Contact Us
           </button>
         </Link>
@@ -71,20 +80,19 @@ const Navbar = () => {
           <ul
             className={`flex flex-col items-center gap-6 py-20 ${nerkoOne.className} text-[22px]`}
           >
-            {["Home", "Service", "Projects", "About us", "Contact Us"].map(
-              (item, i) => (
-                <li key={i} className="relative group">
-                  <Link
-                    href={item === "About us" ? "#about" : "#header"}
-                    onClick={() => setMenuOpen(false)}
-                    className="hover:text-[#7764e0] transition"
-                  >
-                    {item}
-                  </Link>
-                  <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#7764e0] transition-all duration-300 group-hover:w-full"></span>
-                </li>
-              )
-            )}
+            {mobileMenuItems.map((item, i) => (
+              <li key={i} className="relative group">
+                <Link
+                  href={item.href}
+                  scroll={false}
+                  onClick={() => setMenuOpen(false)}
+                  className="hover:text-[#7764e0] transition"
+                >
+                  {item.name}
+                </Link>
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#7764e0] transition-all duration-300 group-hover:w-full"></span>
+              </li>
+            ))}
           </ul>
         </div>
       )}

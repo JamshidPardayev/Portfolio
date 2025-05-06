@@ -8,12 +8,11 @@ import { FaBootstrap, FaHtml5, FaReact, FaSquareGithub } from "react-icons/fa6";
 import { IoLogoCss3 } from "react-icons/io";
 import { Nerko_One } from "next/font/google";
 import { FaSass, FaNode } from "react-icons/fa";
-import { SiAntdesign, SiJavascript, SiNextdotjs, SiShadcnui } from "react-icons/si";
+import { SiAntdesign, SiJavascript, SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiNetlify, SiReactquery, SiTypescript, SiRedux } from "react-icons/si";
 import { IoLogoVercel, IoLogoVue } from "react-icons/io5";
-import { MdLanguage } from "react-icons/md";
-
+import { IoLogoFirebase } from "react-icons/io5";
 const nerkoOne = Nerko_One({
   subsets: ["latin"],
   weight: "400",
@@ -33,13 +32,19 @@ const Service = () => {
         className=" shadow bg-gradient-to-r from-[#19191B] to-[#000018] text-white py-1 max-sm:pt-[60px] pb-[50px]"
       >
         <div className="max-w-[1200px] mx-auto px-4">
+          
+          <div className="relative">
           <h1
             className="text-[56px] font-bold mb-10 text-center text-[#f8d3c8]"
             data-aos="fade-down"
           >
             My Skills
           </h1>
+          <img src="./image/vector1.svg" alt="VectorImg" className="absolute top-[0px] right-0"/>
+          <img src="./image/vector3.svg" alt="VectorImg" className="absolute top-[-100px] left-10"/>
+          </div>
 
+      
           <div className="flex justify-center gap-[30px] flex-wrap overflow-hidden w-full">
             <div data-aos="zoom-in" className="flex flex-col items-center text-red-600">
               <FaHtml5 className="w-[100px] h-[100px]" />
@@ -105,17 +110,15 @@ const Service = () => {
               <FaNode className="w-[100px] h-[100px]" />
               <p className="text-[22px]">Node</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-cyan-800">
-              <SiShadcnui className="w-[100px] h-[100px]" />
-              <p className="text-[22px]">Shad CN</p>
+            <div data-aos="zoom-in" className="flex flex-col items-center text-orange-700">
+              <IoLogoFirebase  className="w-[100px] h-[100px]" />
+              <p className="text-[22px]">Firebase</p>
             </div>
             <div data-aos="zoom-in" className="flex flex-col items-center text-red-800">
               <SiAntdesign className="w-[100px] h-[100px]" />
-              <p className="text-[22px]">ANTD Design</p>
+              <p className="text-[22px]">ANT Design</p>
             </div>
           </div>
-
-          <h2 className="text-[56px] mt-[30px] flex justify-center items-center gap-x-2">Learning <MdLanguage className="text-[30px]"/></h2>
         </div>
       </section>
     </div>

@@ -36,9 +36,9 @@ const Navbar = () => {
 
   const menuItems = [
     { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
     { name: "Services", href: "#service" },
     { name: "Projects", href: "#project" },
-    { name: "About", href: "#about" },
   ];
 
   const mobileMenuItems = [...menuItems, { name: "Contact Us", href: "#contact" }];

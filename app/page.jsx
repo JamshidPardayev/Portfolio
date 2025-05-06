@@ -20,9 +20,9 @@ export default function Home() {
       </div>
 
       <Header />
+      <About />
       <Service />
       <Projects />
-      <About />
       <Contact />
     </div>
   );

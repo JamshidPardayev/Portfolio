@@ -46,76 +46,76 @@ const Service = () => {
 
       
           <div className="flex justify-center gap-[30px] flex-wrap overflow-hidden w-full">
-            <div data-aos="zoom-in" className="flex flex-col items-center text-red-600">
-              <FaHtml5 className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-red-600 cursor-pointer hover:scale-105">
+              <FaHtml5 className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Html</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-lime-600">
-              <IoLogoCss3 className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-lime-600 cursor-pointer hover:scale-105">
+              <IoLogoCss3 className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Css</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-pink-500">
-              <FaSass className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-pink-500 cursor-pointer hover:scale-105">
+              <FaSass className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Sass</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-blue-700">
-              <RiTailwindCssFill className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-blue-700 cursor-pointer hover:scale-105">
+              <RiTailwindCssFill className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Tailwind</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-violet-700">
-              <FaBootstrap className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-violet-700 cursor-pointer hover:scale-105">
+              <FaBootstrap className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Bootstrap</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-red-400">
-              <FaSquareGithub className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-red-400 cursor-pointer hover:scale-105">
+              <FaSquareGithub className="w-[100px] h-[100px] " />
               <p className="text-[22px]">GitHub</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-blue-900">
-              <SiNetlify className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-blue-900 cursor-pointer hover:scale-105">
+              <SiNetlify className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Netlify</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-gray-600">
-              <IoLogoVercel className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-gray-600 cursor-pointer hover:scale-105">
+              <IoLogoVercel className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Vercel</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-yellow-600">
+            <div data-aos="zoom-in" className="flex flex-col items-center text-yellow-600 cursor-pointer hover:scale-105">
               <SiJavascript className="text-[100px] w-[100px] rounded-[10px]" />
               <p className="text-[22px]">JavaScript</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-blue-600">
+            <div data-aos="zoom-in" className="flex flex-col items-center text-blue-600 cursor-pointer hover:scale-105">
               <FaReact className="text-[100px] w-[100px]" />
               <p className="text-[22px]">React</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-green-700">
-              <IoLogoVue className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-green-700 cursor-pointer hover:scale-105">
+              <IoLogoVue className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Vue JS</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-orange-600">
-              <SiNextdotjs className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-orange-600 cursor-pointer hover:scale-105">
+              <SiNextdotjs className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Next JS</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-violet-700">
-              <SiReactquery className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-violet-700 cursor-pointer hover:scale-105">
+              <SiReactquery className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Query</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-blue-500">
-              <SiTypescript className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-blue-500 cursor-pointer hover:scale-105">
+              <SiTypescript className="w-[100px] h-[100px] " />
               <p className="text-[22px]">TypeScript</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-amber-600">
-              <SiRedux className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-amber-600 cursor-pointer hover:scale-105">
+              <SiRedux className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Redux</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-green-800">
-              <FaNode className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-green-800 cursor-pointer hover:scale-105">
+              <FaNode className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Node</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-orange-700">
-              <IoLogoFirebase  className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-orange-700 cursor-pointer hover:scale-105">
+              <IoLogoFirebase  className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Firebase</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-red-800">
-              <SiAntdesign className="w-[100px] h-[100px]" />
+            <div data-aos="zoom-in" className="flex flex-col items-center text-red-800 cursor-pointer hover:scale-105">
+              <SiAntdesign className="w-[100px] h-[100px] " />
               <p className="text-[22px]">ANT Design</p>
             </div>
           </div>

@@ -36,18 +36,18 @@ const About = () => {
             About Me
           </h1>
           <img
-            src="/image/vector1.svg"
+            src="/image/vector1.png"
             alt="VectorImg"
             className="absolute top-[0px] right-3"
           />
           <img
-            src="/image/vector2.svg"
+            src="/image/vector2.png"
             alt="VectorImg"
             className="absolute top-[50px] left-10"
           />
         </div>
         <Image
-          src="/image/contactVector.svg"
+          src="/image/contactVector.png"
           alt="vector"
           width={200}
           height={200}
@@ -78,7 +78,7 @@ const About = () => {
               </button>
             </div>
             <img
-              src="./image/vector2.svg"
+              src="./image/vector2.png"
               alt="vector"
               className="absolute top-[100px] left-[90%] max-sm:top-[350px] max-sm:left-[10%]"
             />

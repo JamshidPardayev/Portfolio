@@ -31,17 +31,17 @@ const Projects = () => {
             My Projects
           </h1>
           <img
-            src="/image/vector1.svg"
+            src="/image/vector1.png"
             alt="VectorImg"
             className="absolute top-[-30px] left-10"
           />
           <img
-            src="/image/vector3.svg"
+            src="/image/vector3.png"
             alt="VectorImg"
             className="absolute top-[30px] right-4"
           />
           <img
-            src="/image/vector2.svg"
+            src="/image/vector2.png"
             alt="VectorImg"
             className="absolute top-[70px] right-[50%]"
           />
@@ -50,7 +50,7 @@ const Projects = () => {
         <div className={overlock.className}>
           <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
             <div
-              className="bg-[#1f1f25] max-w-[350px] mx-auto max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4  hover:shadow-[0_0_15px_#f8d3c8]   cursor-pointer hover:scale-102 duration-500"
+              className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4  hover:shadow-[0_0_15px_#f8d3c8]   cursor-pointer hover:scale-102 duration-500"
               data-aos="zoom-in"
             >
               <div className="rounded-md h-[200px] overflow-hidden">
@@ -95,7 +95,7 @@ const Projects = () => {
             </div>
 
             <div
-              className="bg-[#1f1f25] max-w-[350px] mx-auto max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_15px_#f8d3c8] hover:scale-102"
+              className="bg-[#1f1f25]  max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_15px_#f8d3c8] hover:scale-102"
               data-aos="zoom-in"
               data-aos-duration="1500"
             >
@@ -149,7 +149,7 @@ const Projects = () => {
             </div>
 
             <div
-              className="bg-[#1f1f25] max-w-[350px] mx-auto max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_15px_#f8d3c8] hover:scale-102"
+              className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_15px_#f8d3c8] hover:scale-102"
               data-aos="zoom-in"
               data-aos-duration="1500"
             >
@@ -202,7 +202,7 @@ const Projects = () => {
             </div>
 
             <div
-              className="bg-[#1f1f25] max-w-[350px] mx-auto max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_15px_#f8d3c8] hover:scale-102"
+              className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_15px_#f8d3c8] hover:scale-102"
               data-aos="zoom-in"
               data-aos-duration="1500"
             >

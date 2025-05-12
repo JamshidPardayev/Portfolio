@@ -40,8 +40,8 @@ const Service = () => {
           >
             My Skills
           </h1>
-          <img src="./image/vector1.svg" alt="VectorImg" className="absolute top-[0px] right-0"/>
-          <img src="./image/vector3.svg" alt="VectorImg" className="absolute top-[-100px] left-10"/>
+          <img src="./image/vector1.png" alt="VectorImg" className="absolute top-[0px] right-0"/>
+          <img src="./image/vector3.png" alt="VectorImg" className="absolute top-[-100px] left-10"/>
           </div>
 
       
@@ -86,10 +86,6 @@ const Service = () => {
               <FaReact className="text-[100px] w-[100px]" />
               <p className="text-[22px]">React</p>
             </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-green-700 cursor-pointer hover:scale-105">
-              <IoLogoVue className="w-[100px] h-[100px] " />
-              <p className="text-[22px]">Vue JS</p>
-            </div>
             <div data-aos="zoom-in" className="flex flex-col items-center text-orange-600 cursor-pointer hover:scale-105">
               <SiNextdotjs className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Next JS</p>
@@ -105,10 +101,6 @@ const Service = () => {
             <div data-aos="zoom-in" className="flex flex-col items-center text-amber-600 cursor-pointer hover:scale-105">
               <SiRedux className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Redux</p>
-            </div>
-            <div data-aos="zoom-in" className="flex flex-col items-center text-green-800 cursor-pointer hover:scale-105">
-              <FaNode className="w-[100px] h-[100px] " />
-              <p className="text-[22px]">Node</p>
             </div>
             <div data-aos="zoom-in" className="flex flex-col items-center text-orange-700 cursor-pointer hover:scale-105">
               <IoLogoFirebase  className="w-[100px] h-[100px] " />

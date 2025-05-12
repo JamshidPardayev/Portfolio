@@ -51,7 +51,7 @@ const Contact = () => {
           </div>
 
           <Image
-            src="/image/contactVector.png"
+            src="/image/ContactVector.png"
             alt="vector"
             width={200}
             height={200}

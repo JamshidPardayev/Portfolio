@@ -44,19 +44,11 @@ const Contact = () => {
               className="absolute top-[50px] left-10"
             />
              <img
-              src="/image/vector3.png"
+              src="/image/vector2.png"
               alt="VectorImg"
               className="absolute top-[500px] right-10"
             />
           </div>
-
-          <Image
-            src="/image/ContactVector.png"
-            alt="vector"
-            width={200}
-            height={200}
-            className="mx-auto invert"
-          />
 
             <div className="mt-8 max-w-2xl mx-auto px-4">
               <form className="space-y-4">

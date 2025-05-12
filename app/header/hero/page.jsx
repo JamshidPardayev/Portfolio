@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
         <img src="./image/vector1.png" alt="vectorImg" className="absolute top-[30px] left-[50%] max-sm:top-[10px] max-sm:left-[80%]"/>
         <img src="./image/vector2.png" alt="vectorImg" className="absolute top-[100px] left-[90%] max-sm:top-[350px] max-sm:left-[10%]"/>
-        <img src="./image/vector3.png" alt="vectorImg" className="absolute top-[350px] left-[40%] max-sm:top-[400px] max-sm:left-[70%]"/>
+        <img src="./image/vector1.png" alt="vectorImg" className="absolute top-[350px] left-[40%] max-sm:top-[400px] max-sm:left-[70%]"/>
         <div className="relative mx-auto flex items-center justify-center overflow-hidden h-[400px] w-[400px] max-sm:w-[300px] max-sm:h-[300px] rounded-[50%] shadow-2xs shadow-[grey] my-[30px]">
           <img src="./image/myImg.png" alt="heroimg" className="h-[100%] " />
         </div>

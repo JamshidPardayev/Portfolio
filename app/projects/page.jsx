@@ -36,7 +36,7 @@ const Projects = () => {
             className="absolute top-[-30px] left-10"
           />
           <img
-            src="/image/vector3.png"
+            src="/image/vector1.png"
             alt="VectorImg"
             className="absolute top-[30px] right-4"
           />

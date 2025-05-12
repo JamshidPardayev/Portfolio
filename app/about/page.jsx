@@ -46,8 +46,6 @@ const About = () => {
             className="absolute top-[50px] left-10"
           />
         </div>
-        <img src="/image/contactVector.png" alt="vector" className="mx-auto invert w-[200px]"/>
-       
 
         <div className="overflow-hidden">
           <div className="relative max-w-[1200px] px-[15px] mx-auto flex flex-row-reverse justify-between gap-4 max-sm:flex-col max-sm:items-center max-sm:justify-center">

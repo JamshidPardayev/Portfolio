@@ -41,7 +41,7 @@ const Service = () => {
             My Skills
           </h1>
           <img src="./image/vector1.png" alt="VectorImg" className="absolute top-[0px] right-0"/>
-          <img src="./image/vector3.png" alt="VectorImg" className="absolute top-[-100px] left-10"/>
+          <img src="./image/vector1.png" alt="VectorImg" className="absolute top-[-100px] left-10"/>
           </div>
 
       

@@ -1,9 +1,6 @@
-// app/page.jsx
-
 import Header from "./header/page";
 import Service from "./service/page";
 import Projects from "./projects/page";
-import About from "./about/page";
 import Contact from "./contact/page";
 import { Meteors } from "@/components/magicui/meteors";
 
@@ -20,7 +17,6 @@ export default function Home() {
       </div>
 
       <Header />
-      <About />
       <Service />
       <Projects />
       <Contact />

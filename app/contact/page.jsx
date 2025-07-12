@@ -3,8 +3,6 @@
 import React, { useEffect } from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import AOS from "aos";
-import "aos/dist/aos.css";
-import Image from "next/image";
 import { Nerko_One, Overlock } from "next/font/google";
 
 const nerkoOne = Nerko_One({
@@ -18,9 +16,6 @@ const overlock = Overlock({
 });
 
 const Contact = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
 
   return (
     <div id="contact">
@@ -29,7 +24,6 @@ const Contact = () => {
           <div className="relative">
             <h1
               className={`text-[56px] font-bold mb-10 text-center text-[#f8d3c8] ${nerkoOne.className}`}
-              data-aos="fade-down"
             >
               Contact Me
             </h1>

@@ -14,7 +14,10 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleSmoothScroll = (e) => {
-      if (e.target.tagName === "A" && e.target.getAttribute("href")?.startsWith("#")) {
+      if (
+        e.target.tagName === "A" &&
+        e.target.getAttribute("href")?.startsWith("#")
+      ) {
         e.preventDefault();
         const targetId = e.target.getAttribute("href");
         const targetEl = document.querySelector(targetId);
@@ -36,24 +39,26 @@ const Navbar = () => {
 
   const menuItems = [
     { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
     { name: "Services", href: "#service" },
     { name: "Projects", href: "#project" },
   ];
 
-  const mobileMenuItems = [...menuItems, { name: "Contact Us", href: "#contact" }];
+  const mobileMenuItems = [
+    ...menuItems,
+    { name: "Contact Us", href: "#contact" },
+  ];
 
   return (
     <>
       <nav className="fixed top-0 left-0 w-full z-[999] bg-gradient-to-r from-[#121212] to-[#060829]">
         <div className="max-w-[1200px] mx-auto px-[15px] min-h-[100px] flex justify-between items-center text-white">
           <div className={arbutus.className}>
-            <SparklesText className="text-[40px] text-[#f8d3c8] font-medium max-sm:text-[40px]">
+            <SparklesText className="text-[40px] text-[#f8d3c8] font-medium max-md:text-[35px]">
               Jamshid
             </SparklesText>
           </div>
 
-          <div className={`${nerkoOne.className} max-md:hidden`}>
+          <div className={`${nerkoOne.className} max-sm:hidden`}>
             <ul className="flex gap-6 items-center text-[#f8d3c8] text-[20px]">
               {menuItems.map((item, i) => (
                 <li key={i} className="relative group">
@@ -70,12 +75,12 @@ const Navbar = () => {
           </div>
 
           <a href="#contact">
-            <button className="text-[20px] px-5 py-1 border bg-gradient-to-r from-[#19049e] via-[#152a7a] rounded-tr-[60px] rounded-bl-[60px] hover:text-[#84f1ff] hover:border-[#84f1ff] duration-300 cursor-pointer max-md:hidden">
+            <button className="text-[20px] px-5 py-1 border bg-gradient-to-r from-[#19049e] via-[#152a7a] rounded-tr-[60px] rounded-bl-[60px] hover:text-[#84f1ff] hover:border-[#84f1ff] duration-300 cursor-pointer max-sm:hidden">
               Contact Us
             </button>
           </a>
 
-          <div className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
+          <div className="sm:hidden" onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? (
               <IoMdClose className="text-[30px] cursor-pointer" />
             ) : (

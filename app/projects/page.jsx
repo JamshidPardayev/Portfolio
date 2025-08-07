@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
 
         <div className={overlock.className}>
-          <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+          <div className="max-w-[1200px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
             <div className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4  hover:shadow-[0_0_5px_2px_#f8d3c8]   cursor-pointer duration-500 transition">
               <div className="rounded-md h-[200px] overflow-hidden">
                 <img
@@ -81,26 +81,29 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4  hover:shadow-[0_0_5px_2px_#f8d3c8] cursor-pointer duration-500">
+            <div className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4  hover:shadow-[0_0_5px_2px_#f8d3c8]   cursor-pointer duration-500 transition">
               <div className="rounded-md h-[200px] overflow-hidden">
                 <img
-                  src="/image/webImg.png"
+                  src="/image/e-commerce.png"
                   alt="project-img"
                   className="w-full h-full hover:scale-102 duration-300"
                 />
               </div>
               <div className="mt-4 space-y-2">
                 <h3 className="text-[24px] font-semibold text-[#f8d3c8] line-clamp-1">
-                  Web Site
+                  E-commerce
                 </h3>
                 <p className="text-[16px] text-gray-300 my-4 line-clamp-3">
-                  This is sample project description random things are here in
-                  description. Lorem ipsum generator for dummy content.
+                  Welcome to E-commerce, your one-stop online shop for
+                  high-quality products at unbeatable prices. Whether you're
+                  shopping for the latest gadgets, stylish apparel, home
+                  essentials, or unique gifts, we bring a wide selection of
+                  curated items right to your fingertips.
                 </p>
 
                 <div className="flex gap-4 mt-3">
                   <a
-                    href="https://new-rrd.vercel.app/"
+                    href="https://e-commerce-eight-puce-46.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-[#f8d3c8] border border-[#f8d3c8] rounded-[6px] p-2 hover:bg-gray-800 transition duration-300"
@@ -109,7 +112,7 @@ const Projects = () => {
                     <span>Live Preview</span>
                   </a>
                   <a
-                    href="https://github.com/JamshidPardayev/NewRRD"
+                    href="https://github.com/JamshidPardayev/E-commerce"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-[#f8d3c8] border border-[#f8d3c8] rounded-[6px] p-2 hover:bg-gray-800 transition duration-300"
@@ -121,10 +124,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div
-              className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_5px_2px_#f8d3c8]"
-              data-aos-duration="1500"
-            >
+            <div className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_5px_2px_#f8d3c8]">
               <div className="rounded-md h-[200px] overflow-hidden">
                 <img
                   src="/image/greenShop.png"
@@ -161,6 +161,52 @@ const Projects = () => {
                   >
                     <FaCodeBranch />
                     View Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h1 className="text-[46px] font-bold my-10 text-center text-[#f8d3c8]">
+            My Little Projects
+          </h1>
+
+          <div className="max-w-[1200px] mx-auto grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-8 p-3">
+            <div className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4  hover:shadow-[0_0_5px_2px_#f8d3c8] cursor-pointer duration-500">
+              <div className="rounded-md h-[200px] overflow-hidden">
+                <img
+                  src="/image/webImg.png"
+                  alt="project-img"
+                  className="w-full h-full hover:scale-102 duration-300"
+                />
+              </div>
+              <div className="mt-4 space-y-2">
+                <h3 className="text-[24px] font-semibold text-[#f8d3c8] line-clamp-1">
+                  Web Site
+                </h3>
+                <p className="text-[16px] text-gray-300 my-4 line-clamp-3">
+                  This is sample project description random things are here in
+                  description. Lorem ipsum generator for dummy content.
+                </p>
+
+                <div className="flex gap-4 mt-3">
+                  <a
+                    href="https://new-rrd.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-[#f8d3c8] border border-[#f8d3c8] rounded-[6px] p-2 hover:bg-gray-800 transition duration-300"
+                  >
+                    <FaLink />
+                    <span>Live Preview</span>
+                  </a>
+                  <a
+                    href="https://github.com/JamshidPardayev/NewRRD"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-[#f8d3c8] border border-[#f8d3c8] rounded-[6px] p-2 hover:bg-gray-800 transition duration-300"
+                  >
+                    <FaCodeBranch />
+                    <span>View Code</span>
                   </a>
                 </div>
               </div>
@@ -247,10 +293,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div
-              className="bg-[#1f1f25]  max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_5px_2px_#f8d3c8]"
-              data-aos-duration="1500"
-            >
+            <div className="bg-[#1f1f25]  max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_5px_2px_#f8d3c8]">
               <div className="rounded-md h-[200px] overflow-hidden">
                 <img
                   src="/image/web-dev.png"
@@ -297,10 +340,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div
-              className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_5px_2px_#f8d3c8]"
-              data-aos-duration="1500"
-            >
+            <div className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_5px_2px_#f8d3c8]">
               <div className="rounded-md h-[200px] overflow-hidden">
                 <img
                   src="./image/localli.png"
@@ -346,10 +386,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div
-              className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_5px_2px_#f8d3c8]"
-              data-aos-duration="1500"
-            >
+            <div className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_5px_2px_#f8d3c8]">
               <div className="rounded-md h-[200px] overflow-hidden">
                 <img
                   src="/image/coffee-img.png"
@@ -380,50 +417,6 @@ const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/JamshidPardayev/Coffee"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-[#f8d3c8] border border-[#f8d3c8] rounded-[6px] p-2 hover:bg-gray-800 transition duration-300"
-                  >
-                    <FaCodeBranch />
-                    View Code
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="bg-[#1f1f25] max-w-[350px] mx-auto rounded-xl overflow-hidden shadow-lg p-4 duration-500 hover:shadow-[0_0_5px_2px_#f8d3c8]"
-              data-aos-duration="1500"
-            >
-              <div className="rounded-md h-[200px] overflow-hidden">
-                <img
-                  src="/image/devconnector.png"
-                  alt="my-project"
-                  className="w-full h-full hover:scale-102 duration-300"
-                />
-              </div>
-
-              <div className="mt-4 space-y-3 text-white">
-                <h3 className="text-[24px] font-semibold text-[#f8d3c8] line-clamp-1">
-                  Developer Connector
-                </h3>
-                <p className="text-[16px] text-gray-300 line-clamp-3">
-                  Developer Connector. Create a developer profile/portfolio,
-                  share posts and get help from other developers
-                </p>
-
-                <div className="flex gap-6 mt-4">
-                  <a
-                    href="https://dev-connector-mauve.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-[#f8d3c8] border border-[#f8d3c8] rounded-[6px] p-2 hover:bg-gray-800 transition duration-300"
-                  >
-                    <FaLink />
-                    Live Preview
-                  </a>
-                  <a
-                    href="https://github.com/JamshidPardayev/DevConnector"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-[#f8d3c8] border border-[#f8d3c8] rounded-[6px] p-2 hover:bg-gray-800 transition duration-300"

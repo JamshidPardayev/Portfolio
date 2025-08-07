@@ -27,9 +27,7 @@ const Service = () => {
       >
         <div className="max-w-[1200px] mx-auto px-4">
           <div className="relative">
-            <h1
-              className="text-[56px] font-bold mb-10 text-center text-[#f8d3c8]"
-            >
+            <h1 className="text-[56px] font-bold mb-10 text-center text-[#f8d3c8]">
               My Skills
             </h1>
             <img
@@ -45,99 +43,67 @@ const Service = () => {
           </div>
 
           <div className="flex justify-center gap-[30px] flex-wrap overflow-hidden w-full">
-            <div
-              className="flex flex-col items-center text-red-600 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-red-600 cursor-pointer hover:scale-105 duration-300">
               <FaHtml5 className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Html</p>
             </div>
-            <div
-              className="flex flex-col items-center text-lime-600 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-lime-600 cursor-pointer hover:scale-105 duration-300">
               <IoLogoCss3 className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Css</p>
             </div>
-            <div
-              className="flex flex-col items-center text-pink-500 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-pink-500 cursor-pointer hover:scale-105 duration-300">
               <FaSass className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Sass</p>
             </div>
-            <div
-              className="flex flex-col items-center text-blue-700 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-blue-700 cursor-pointer hover:scale-105 duration-300">
               <RiTailwindCssFill className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Tailwind</p>
             </div>
-            <div
-              className="flex flex-col items-center text-violet-700 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-violet-700 cursor-pointer hover:scale-105 duration-300">
               <FaBootstrap className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Bootstrap</p>
             </div>
-            <div
-              className="flex flex-col items-center text-red-400 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-red-400 cursor-pointer hover:scale-105 duration-300">
               <FaSquareGithub className="w-[100px] h-[100px] " />
               <p className="text-[22px]">GitHub</p>
             </div>
-            <div
-              className="flex flex-col items-center text-blue-900 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-blue-900 cursor-pointer hover:scale-105 duration-300">
               <SiNetlify className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Netlify</p>
             </div>
-            <div
-              className="flex flex-col items-center text-gray-600 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-gray-600 cursor-pointer hover:scale-105 duration-300">
               <IoLogoVercel className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Vercel</p>
             </div>
-            <div
-              className="flex flex-col items-center text-yellow-600 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-yellow-600 cursor-pointer hover:scale-105 duration-300">
               <SiJavascript className="text-[100px] w-[100px] rounded-[10px]" />
               <p className="text-[22px]">JavaScript</p>
             </div>
-            <div
-              className="flex flex-col items-center text-blue-600 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-blue-600 cursor-pointer hover:scale-105 duration-300">
               <FaReact className="text-[100px] w-[100px]" />
               <p className="text-[22px]">React</p>
             </div>
-            <div
-              className="flex flex-col items-center text-orange-600 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-orange-600 cursor-pointer hover:scale-105 duration-300">
               <SiNextdotjs className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Next JS</p>
             </div>
-            <div
-              className="flex flex-col items-center text-violet-700 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-violet-700 cursor-pointer hover:scale-105 duration-300">
               <SiReactquery className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Query</p>
             </div>
-            <div
-              className="flex flex-col items-center text-blue-500 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-blue-500 cursor-pointer hover:scale-105 duration-300">
               <SiTypescript className="w-[100px] h-[100px] " />
               <p className="text-[22px]">TypeScript</p>
             </div>
-            <div
-              className="flex flex-col items-center text-amber-600 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-amber-600 cursor-pointer hover:scale-105 duration-300">
               <SiRedux className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Redux</p>
             </div>
-            <div
-              className="flex flex-col items-center text-orange-700 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-orange-700 cursor-pointer hover:scale-105 duration-300">
               <IoLogoFirebase className="w-[100px] h-[100px] " />
               <p className="text-[22px]">Firebase</p>
             </div>
-            <div
-              className="flex flex-col items-center text-red-800 cursor-pointer hover:scale-105"
-            >
+            <div className="flex flex-col items-center text-red-800 cursor-pointer hover:scale-105 duration-300">
               <SiAntdesign className="w-[100px] h-[100px] " />
               <p className="text-[22px]">ANT Design</p>
             </div>
